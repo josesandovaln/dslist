@@ -31,7 +31,7 @@ public class Game {
 	@Column(columnDefinition = "TEXT")
 	private String longDescription;
 	
-	private Game() {
+	public Game() {
 	}
 
 	public Game(Long id, String title, Integer year, String genre, String platforms, Double score, String imgUrl,
